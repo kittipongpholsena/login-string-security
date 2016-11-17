@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+</head>
+<body>
+	<div th:fragment="script">
+	
+		<script type="text/javascript" src="../../../resources/jquery/jquery-3.1.0.min.js" th:src="@{/resources/jquery/jquery-3.1.0.min.js}"></script>
+		<script type="text/javascript" src="../../../resources/jquery/jquery.js" th:src="@{/resources/jquery/jquery.js}"></script>
+		<script type="text/javascript" src="../../../resources/jquery/jquery-ui.js" th:src="@{/resources/jquery/jquery-ui.js}"></script>
+		<script type="text/javascript" src="../../../resources/jquery/jquery-ui-datepicker.js" th:src="@{/resources/jquery/jquery-ui-datepicker.js}"></script>
+		<script type="text/javascript" src="../../../resources/jquery/jquery-ui-i18n.js" th:src="@{/resources/jquery/jquery-ui-i18n.js}"></script>
+		
+		<script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/bootstrap.min.js" th:src="@{/resources/bootstrap-3.3.5/js/bootstrap.min.js}"></script>
+		<script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/bootstrap-dialog.min.js" th:src="@{/resources/bootstrap-3.3.5/js/bootstrap-dialog.min.js}"></script>
+		<script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/bootstrap3-typeahead.js" th:src="@{/resources/bootstrap-3.3.5/js/bootstrap3-typeahead.js}"></script>
+		<!-- <script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/moment/moment.js" th:src="@{/resources/bootstrap-3.3.5/js/moment/moment.js}"></script> -->
+		<!-- <script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/moment/locale/th.js" th:src="@{/resources/bootstrap-3.3.5/js/moment/locale/th.js}"></script> -->
+		<script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/bootstrap-datepicker.min.js" th:src="@{/resources/bootstrap-3.3.5/js/bootstrap-datepicker.min.js}"></script>
+		<!-- <script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/locales/bootstrap-datepicker.th.min.js" th:src="@{/resources/bootstrap-3.3.5/js/locales/bootstrap-datepicker.th.min.js}"></script> -->
+		<script type="text/javascript" src="../../../resources/bootstrap-3.3.5/js/bootstrapValidator.js" th:src="@{/resources/bootstrap-3.3.5/js/bootstrapValidator.js}"></script>
+		
+		<script type="text/javascript" src="../../../resources/js/system.js" th:src="@{/resources/js/system.js}"></script>
+		<script type="text/javascript" src="../../../resources/js/utility.js" th:src="@{/resources/js/utility.js}"></script>
+		
+		
+		<script type="text/javascript">
+
+			$(function() {
+				//F12 disable code
+			    document.onkeypress = function (event) {
+			        event = (event || window.event);
+			        if (event.keyCode == 123) {
+			           //alert('No F-12');
+			            return false;
+			        }
+			    }
+				
+			    document.onmousedown = function (event) {
+			        event = (event || window.event);
+			        if (event.keyCode == 123) {
+			            //alert('No F-keys');
+			            return false;
+			        }
+			    }
+			    
+				document.onkeydown = function (event) {
+			        event = (event || window.event);
+			        if (event.keyCode == 123) {
+			            //alert('No F-keys');
+			            return false;
+			        }
+			    }
+			
+			
+			});
+		
+		</script>
+	</div>
+</body>
+</html>

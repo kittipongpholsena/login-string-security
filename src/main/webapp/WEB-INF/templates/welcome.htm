@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 th:text="${greeting}"></h1>
+	<ul>
+		<li><a th:href="@{/admin}">Admin</a></li>
+		<li><a th:href="@{/dba}">DBA</a></li>
+	</ul>
+	<p><a href="/logout" th:href="@{/logout}">Logout</a></p>
+</body>
+</html>

@@ -1,0 +1,1169 @@
+
+::-ms-reveal {
+	display: none;
+}
+
+::-ms-clear {
+	display: none;
+}
+
+body {
+	background-color: #ffffff;
+	/*background-image: url("../img/body_background.jpg");*/
+	background-attachment: fixed;
+	background-position: right top;
+	color: #303030;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 10pt;
+	height: 100%;
+	text-align: center;
+}
+
+a {
+	color: #85859c;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #69699c;
+}
+
+button {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	white-space: nowrap;
+}
+
+img {
+	border: none;
+}
+
+input {
+	background-color: #fff;
+}
+
+fieldset {
+	border: 1px solid #cfcfcf;
+	margin: 4px 4px 4px 4px;
+}
+
+legend {
+	color: #FF4500;
+	font-weight: 600;
+	margin-left: 1em;
+	text-align: left;
+}
+
+button.small {
+	font-size: 8pt;
+}
+
+.topic {
+	display: inline-block;
+	padding: 16px 0 16px 0;
+	text-align: left;
+	width: 100%;
+}
+
+.topic .topic_text {
+	color: #999999;
+	display: block;
+	float: left;
+	font-size: 16pt;
+	font-weight: 800;
+	margin: 0 4px 0 4px;
+}
+
+.topic_text2 {
+	color: #007fff;
+	display: block;
+	font-size: 16pt;
+	font-weight: 800;
+	margin: 0 4px 0 4px;
+	text-align: center;
+}
+
+.container {
+	margin: 0px 4px 0px 2px;
+	font-size: 10pt;
+}
+
+.clearthis {
+	margin: 0px;
+	height: 1px;
+	clear: both;
+	float: none;
+	font-size: 1px;
+	line-height: 0px;
+	overflow: hidden;
+}
+
+.hdivider {
+	background-color: #f0f0f0;
+	height: 1px;
+	overflow: hidden;
+}
+
+.selectable {
+	cursor: pointer;
+}
+
+.required1 {
+	background-color: #ffffcc;
+}
+
+.required2 {
+	border: 1px dashed #ff3333;
+}
+
+.marker {
+	color: #ff0000;
+}
+
+.info_message {
+	color: #000099;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.error_message {
+	color: #990000;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.loading_message {
+	background-color: #ffff99;
+	border: 1px solid #f0f0f0;
+	color: #999999;
+	font-weight: 600;
+	padding: 4px 8px 4px 8px;
+}
+
+.info_label {
+	background-color: #99ccff;
+	border: 1px solid #ffffcc;
+	color: #666666;
+	font-weight: 600;
+	padding: 4px 8px 4px 8px;
+}
+
+.error_label {
+	background-color: #ff3300;
+	border: 1px solid #f0f0f0;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 4px 8px 4px 8px;
+}
+
+.error_box {
+	border: 1px solid #ff0000;
+	color: #990000;
+	padding: 8px 8px 8px 8px;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.tabs {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.readonly {
+	background: #ffffff;
+	border: solid 1px #f0f0f0;
+}
+
+/* Page Header -------------------------------------------------------------- */
+#page_header {
+	background: url('../img/header_background.png') repeat-x 0px 0px;
+	height: 110px;
+	/* overflow: hidden; */
+}
+
+#page_heading {
+	background: url('../img/golf_logo129_s.png') no-repeat 4px 4px ;
+	float: left;
+	vertical-align: top;
+	font-family: gothic;
+	height: 90px;
+	width: 390px;
+}
+
+#page_heading h1 {
+	color: #ffffff;
+	float: left;
+	height: 16px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 200px;
+	margin-top: 50px;
+	width: 700px;
+}
+
+#page_headerlink {
+	color: #999999;
+	float: left;
+	width: 100%;
+	height: 5px;
+	font-weight: 600;
+	/**
+	padding-bottom: 20px;
+	padding-right: 1px;
+	padding-top: 64px;
+	text-align: left; **/
+	word-spacing: -1px;
+}
+
+#page_headerlink a {
+	color: #666666;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-decoration: none;
+}
+
+#page_headerlink a:hover {
+	color: #da1e01;
+	text-decoration: underline;
+}
+
+#page_headerlink .username {
+	color: #18b9ff;
+}
+
+#page_headerlink .logout {
+	background: none;
+	color: #ff2400;
+	text-decoration: none;
+}
+
+#page_headerlink .logout:hover {
+	background: #ff2400;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Page Header ============================================================== */
+
+/* Page Footer -------------------------------------------------------------- */
+#page_footer {
+	
+}
+
+#copyright {
+	color: #999999;
+	float: right;
+	height: 30px;
+	padding-top: 16px;
+	text-align: center;
+}
+
+/* Page Footer ============================================================== */
+
+/* List Table --------------------------------------------------------------- */
+/* tables */
+table.tablesorter {
+	border-collapse: collapse;
+	margin: 20px auto 20px auto;
+	text-align: left;
+	background: #e8edff;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #b9c9fe;
+	border: 1px solid #FFF;
+	font-size: 10pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../img/tables/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #e8edff;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/tables/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/tables/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+table.tablesorter tbody tr:hover td {
+	background: #d0dafd;
+}
+
+
+
+
+
+.list_table {
+	border-collapse: collapse;
+	margin: 20px auto 20px auto;
+	text-align: left;
+}
+
+.list_table caption {
+	padding: 4px 0px 4px 0px;
+}
+
+.list_table td.rounded_head_left,.list_table th.rounded_head_left {
+	background: #b9c9fe url("../img/tables/left.png") left -1px no-repeat;
+}
+
+.list_table td.rounded_head_right,.list_table th.rounded_head_right {
+	background: #b9c9fe url("../img/tables/right.png") right -1px
+		no-repeat;
+}
+
+.list_table th {
+	background: #b9c9fe;
+	color: #039;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.list_table td {
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+	padding: 8px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.list_table td a {
+	text-decoration: none;
+}
+
+.list_table td a:hover {
+	text-decoration: underline;
+}
+
+.list_table td.rounded_foot_left {
+	background: #e8edff url("../img/tables/botleft.png") left bottom no-repeat;
+}
+
+.list_table td.rounded_foot_right {
+	background: #e8edff url("../img/tables/botright.png") right bottom no-repeat;
+}
+
+.list_table tbody tr:hover td {
+	background: #d0dafd;
+}
+
+.list_table .small {
+	
+}
+
+/* List Table =============================================================== */
+
+/* Info Table --------------------------------------------------------------- */
+.info_table {
+	background: #ffffff;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.info_table caption {
+	color: #666699;
+	padding: 8px 8px 8px 8px;
+}
+
+.info_table th {
+	border-bottom: 2px solid #6699cc;
+	color: #003399;
+	padding: 8px 4px;
+}
+
+.info_table td {
+	border: 1px solid #f0f0f0;
+	border-bottom: 1px solid #cccccc;
+	color: #666699;
+	padding: 8px 4px;
+}
+
+.info_table thead th {
+	white-space: nowrap;
+}
+
+.info_table tfoot td {
+
+}
+
+.info_table tbody tr:hover td {
+	color: #000099;
+}
+
+.info_table .label {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.info_table .detail {
+	color: #0033cc;
+	text-align: left;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.info_table .detail2 {
+	color: #0033cc;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.info_table .total {
+	background-color: #f9f9f9;
+}
+
+.info_table .extra {
+	border-style: none;
+}
+
+.info_table span.extra {
+	text-decoration: underline;
+}
+
+.info_table .note {
+	font-size: 8pt;
+}
+
+.info_table .label_s {
+	font-size: 8pt;
+}
+
+.info_table .label_ss {
+	font-size: 7.5pt;
+}
+
+.info_table tr.highlight td {
+	color: #ff0000 !important;
+}
+
+/* Info Table =============================================================== */
+
+/* Info Table 2 ------------------------------------------------------------- */
+.info_table2 {
+	background: #ffffff;
+	border: 2px dashed #cfcfcf;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.info_table2 th {
+	border-bottom: 2px solid #6699cc;
+	color: #003399;
+	padding: 8px 4px;
+}
+
+.info_table2 td {
+	border: 1px solid #f0f0f0;
+	border-bottom: 1px solid #cccccc;
+	color: #666699;
+	padding: 8px 4px;
+}
+
+.info_table2 thead th {
+	white-space: nowrap;
+}
+
+.info_table2 tfoot td {
+	border-style: none;
+}
+
+.info_table2 tbody tr:hover td {
+	color: #000099;
+}
+
+.info_table2 .header {
+	background-color: #ccffff;
+	white-space: nowrap;
+}
+
+.info_table2 .header2 {
+	background-color: #f9f9f9;
+	white-space: nowrap;
+}
+
+.info_table2 .label {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.info_table2 .label .extra {
+	color: #339933;
+}
+
+.info_table2 .detail {
+	color: #0033cc;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.info_table2 .detail2 {
+	color: #0033cc;
+	text-align: right;
+	white-space: nowrap;
+}
+
+/* Info Table 2 ============================================================= */
+
+/* Document ----------------------------------------------------------------- */
+.doc {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	margin-right: 5px;
+	padding: 0 0 2.5em;
+}
+
+.doc li {
+	background-color: #f0f0f0;
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.doc li:hover {
+	border: 1px solid #ff3333;
+}
+
+.doc li img {
+	height: 118px;
+	width: 118px;
+}
+
+.doc .caption {
+	background-color: #ccffcc;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.doc .caption .order {
+	color: #330099;
+	font-size: 7.5pt;
+	font-weight: 600;
+}
+
+.doc .caption .date {
+	color: #333333;
+	font-size: 7.5pt;
+}
+
+.docfax {
+	background: #cccccc;
+	background-image: url(../img/mac_sites.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px dashed #999999;
+}
+
+.docjob {
+	background: #eeeeee;
+	background-image: url(../img/mac_documents.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px dashed #aaaaaa;
+}
+
+.docrecycle {
+	background: #eeeeee;
+	background-image: url(../img/mac_recycle.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px dashed #AAA;
+}
+
+/* Document ================================================================= */
+
+/* Form Table --------------------------------------------------------------- */
+.form_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form_table td {
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+}
+
+.form_table .label {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.form_table .detail {
+	text-align: left;
+	white-space: nowrap;
+}
+
+.form_table .button {
+	text-align: center;
+}
+
+.form_table .button_l {
+	text-align: left;
+}
+
+.form_table .button_r {
+	text-align: right;
+}
+
+/* Form Table =============================================================== */
+
+/* Form Table 2 ------------------------------------------------------------- */
+.form_table2 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form_table2 th {
+	padding: 4px 8px 4px 8px;
+	text-align: left;
+}
+
+.form_table2 td {
+	padding: 4px 8px 4px 8px;
+	vertical-align: middle;
+}
+
+.form_table2 .label {
+	text-align: right;
+}
+
+.form_table2 .detail {
+	color: #0033cc;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.form_table2 .button {
+	text-align: center;
+}
+
+.form_table2 .extra {
+	color: #ff0033;
+	font-weight: 600;
+}
+
+/* Form Table 2 ============================================================= */
+
+/* Form Table 3 ------------------------------------------------------------- */
+.form_table3 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.form_table3 td {
+	padding: 4px 8px 4px 8px;
+	vertical-align: middle;
+}
+
+.form_table3 .label {
+	text-align: right;
+}
+
+.form_table3 .detail {
+	text-align: left;
+}
+
+.form_table3 .button {
+	text-align: center;
+}
+
+.form_table3 .button_l {
+	text-align: left;
+}
+
+.form_table3 .button_r {
+	text-align: right;
+}
+
+/* Form Table 3 ============================================================= */
+
+/* Input Table -------------------------------------------------------------- */
+.input_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input_table .input {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.input_table .label_l {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.input_table .label_c {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.input_table .label_r {
+	text-align: right;
+	vertical-align: middle;
+}
+
+.input_table .label_s {
+	font-size: 8pt;
+	vertical-align: middle;
+}
+
+.input_table .label_ss {
+	font-size: 7.5pt;
+	vertical-align: middle;
+}
+
+.input_table .label_sss {
+	font-size: 7pt;
+	vertical-align: middle;
+}
+
+.input_table .label_u {
+	text-decoration: underline;
+	vertical-align: middle;
+}
+
+/* Input Table ============================================================== */
+
+/* Input Table 2 ------------------------------------------------------------ */
+.input_table2 {
+	background: #ffffff;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input_table2 thead th {
+	white-space: nowrap;
+}
+
+.input_table2 th {
+	border-bottom: 2px solid #6699cc;
+	color: #003399;
+	padding: 4px 4px 4px 4px;
+}
+
+.input_table2 td {
+	border: 1px solid #f0f0f0;
+	border-bottom: 1px solid #cccccc;
+	color: #666699;
+	padding: 4px 4px 4px 4px;
+}
+
+.input_table2 tfoot td {
+	border-style: none;
+}
+
+.input_table2 .input {
+	text-align: center;
+}
+
+.input_table2 .label_l {
+	text-align: left;
+}
+
+.input_table2 .label_c {
+	text-align: center;
+}
+
+.input_table2 .label_r {
+	text-align: right;
+}
+
+.input_table2 .total {
+	background-color: #f9f9f9;
+}
+
+
+/* Input Table 2 ============================================================ */
+
+/* Border Table ------------------------------------------------------------- */
+.border_table {
+	border: dashed 1px #cccccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Border Table ============================================================= */
+
+/* Container Table ---------------------------------------------------------- */
+.container_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container_table .column {
+	padding: 4px 4px 4px 4px;
+	vertical-align: top;
+}
+
+/* Container Table ========================================================== */
+
+/* Dialog ------------------------------------------------------------------- */
+.dialog {
+	display: none;
+	font-size: 10pt;
+}
+
+/* Dialog =================================================================== */
+
+/* Tab ---------------------------------------------------------------------- */
+.tab {
+	
+}
+
+.tab li.add {
+	background-color: #ccffcc;
+	background-image: none;
+}
+
+/* Tab ====================================================================== */
+
+/* Paging ------------------------------------------------------------------- */
+.paging {
+	float: left;
+}
+
+.paging .button {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 20px;
+	margin: 0 4px 0 4px;
+	overflow: hidden;
+	text-align: justify;
+	text-indent: -99999px;
+	width: 20px;
+}
+
+.paging .back {
+	background-image: url("../img/arrow_back.png");
+	cursor: pointer;
+	height: 32px;
+	width: 32px;
+}
+
+.paging .first {
+	background-image: url("../img/arrow_first.png");
+	cursor: pointer;
+}
+
+.paging .prev {
+	background-image: url("../img/arrow_prev.png");
+	cursor: pointer;
+}
+
+.paging .next {
+	background-image: url("../img/arrow_next.png");
+	cursor: pointer;
+}
+
+.paging .last {
+	background-image: url("../img/arrow_last.png");
+	cursor: pointer;
+}
+
+.paging .first_disabled {
+	background-image: url("../img/arrow_first_disabled.png");
+	cursor: default;
+}
+
+.paging .prev_disabled {
+	background-image: url("../img/arrow_prev_disabled.png");
+	cursor: default;
+}
+
+.paging .next_disabled {
+	background-image: url("../img/arrow_next_disabled.png");
+	cursor: default;
+}
+
+.paging .last_disabled {
+	background-image: url("../img/arrow_last_disabled.png");
+	cursor: default;
+}
+
+/* Paging =================================================================== */
+
+/* Tabs --------------------------------------------------------------------- */
+.tabs {
+}
+
+.tabs .button {
+	font-size: 9pt;
+}
+
+/* Tabs 2 ------------------------------------------------------------------- */
+.tabs2 {
+	font-size: 10pt !important;
+}
+
+/* Tabs ===================================================================== */
+
+/* Resizable ---------------------------------------------------------------- */
+.resizable {
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	padding: 4px;
+}
+
+/* Resizable ================================================================ */
+
+/* Accordion ---------------------------------------------------------------- */
+.accordion {
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.accordion h3 {
+	text-align: left;
+}
+
+/* Accordion ================================================================ */
+
+/* Loading ------------------------------------------------------------------ */
+.loading {
+	background-image: url("../img/loading.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 16px;
+	padding: 4px 0 4px 0;
+}
+
+/* Loading ================================================================== */
+
+/* CSS for Datepicker ------------------------------------------------------- */
+.ui-datepicker-trigger { cursor: pointer; padding-left: 4px; padding-right: 4px; }
+
+/* CSS for Datepicker ======================================================= */
+
+/* CSS for Timepicker ------------------------------------------------------- */
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+/* CSS for Timepicker ======================================================= */
+
+/* Extra -------------------------------------------------------------------- */
+.extra_textbox {
+	background-color: #f6f6f6;
+	border-bottom: 2px dashed #3300cc;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.extra_caption {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+/* Extra ==================================================================== */
+
+/* Textbox ------------------------------------------------------------------ */
+.money {
+	width: 72px;
+}
+
+.day {
+	width: 24px;
+}
+
+.percent {
+	width: 50px;
+}
+
+.code {
+	width: 50px;
+}
+
+.description {
+	width: 128px;
+}
+
+.description2 {
+	width: 256px;
+}
+
+/* Textbox ================================================================== */
+
+/* Report ------------------------------------------------------------------- */
+.report_name_link {
+	font-weight: 600;
+	font-size:14px;
+}
+
+#gradient-style{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:12px;
+	width:480px;
+	text-align:left;
+	border-collapse:collapse;
+	margin:20px;
+}
+#gradient-style th{
+	font-size:13px;
+	font-weight:normal;
+	background:#b9c9fe url("../img/tables/gradhead.png") repeat-x;
+	border-top:2px solid #d3ddff;
+	border-bottom:1px solid #fff;
+	color:#039;
+	padding:8px;
+}
+#gradient-style td{
+	border-bottom:1px solid #fff;
+	color:#669;
+	border-top:1px solid #fff;
+	background:#e8edff url("../img/tables/gradback.png") repeat-x;
+	padding:8px;
+}
+#gradient-style tfoot tr td{
+	background:#e8edff;
+	font-size:12px;
+	color:#99c;
+}
+#gradient-style tbody tr:hover td{
+	background:#d0dafd url("../img/tables/gradhover.png") repeat-x;
+	color:#339;
+}
+
+/* Report =================================================================== */
+.ui-autocomplete-loading { background: white url('img/ui-anim_basic_16x16.gif') right center no-repeat; }
+
+/* Extra ==================================================================== */
+.button_highlight {
+	background: #ffcc66 !important;
+	border: 1px solid #ff3300 !important;
+}
+
+.ui-autocomplete {
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	float: left;
+	display: none;
+	min-width: 160px;
+	_width: 160px;
+	padding: 4px 0;
+	margin: 2px 0 0 0;
+	list-style: none;
+	background-color: #ffffff;
+	border-color: #ccc;
+	border-color: rgba(0, 0, 0, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	*border-right-width: 2px;
+	*border-bottom-width: 2px;
+
+	.ui-menu-item > a.ui-corner-all {
+		display: block;
+		padding: 3px 15px;
+		clear: both;
+		font-weight: normal;
+		line-height: 18px;
+		color: #555555;
+		white-space: nowrap;
+
+		&.ui-state-hover , &.ui-state-active {
+			color : #ffffff;
+			text-decoration: none;
+			background-color: #0088cc;
+			border-radius: 0px;
+			-webkit-border-radius: 0px;
+			-moz-border-radius: 0px;
+			background-image: none;
+			text-align: left;
+		}
+
+	}
+
+}
+
+ul.ui-autocomplete li.ui-menu-item{
+	text-align: left;
+}
+
+.ui-autocomplete-loading {
+   background: transparent url('../img/icon_loading.gif') right center no-repeat;
+ }
+
+ 
+ img.disabled {
+
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+	/* IE 5-7 */
+	filter: alpha(opacity=50);
+
+	/* Netscape */
+	-moz-opacity: 0.5;
+
+	/* Safari 1.x */
+	-khtml-opacity: 0.5;
+
+	/* Good browsers */
+	opacity: 0.5;
+
+ }
+ 
+ 
+ .leftmenuLink, .leftmenuLink:link, .leftmenuLink:visited {
+   font-family:     "Verdana", "Arial", "Helvetica", Sans-serif;
+   font-size:       14px;
+   color:           #000000;
+   text-decoration: none;
+}
+
+.leftmenuLink:hover, .leftmenuLink:active {
+   font-family:     "Verdana", "Arial", "Helvetica", Sans-serif;
+   font-size:       14px;
+   color:           #3366FF;
+   text-decoration: underline;
+}
+ 
